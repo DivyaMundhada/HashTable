@@ -3,7 +3,8 @@ package com.bridgelabz.HashTable;
 public class HashTable {
 	public static void main(String[] args) {
 		LinkedList<String, Integer> object = new LinkedList();
-		String message = "To be or not to be";
+		 String message = "Paranoids are not paranoid because they are paranoid but " +
+	                "because they keep putting themselves deliberately into paranoid avoidable situations";
 
 		String[] messageArray = message.toLowerCase().split(" ");
 
